@@ -7,19 +7,110 @@ img {
 	height:auto;
 }
 
+a:link, a:visited {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+}
+
 body {
+	background-image: url(homebg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	margin:0;
-	font-family: 'Berlin Sans FB';
-	text-align:left-side;
+	font-family: 'Bahnschrift' ;	
 }
 
-logo {
-	position: absolute;
-	margin-top: 3em;
-	margin-left: 5em;
+header {
+	list-style:none;
+	margin-right:50px;
+	position:relative;
+	float:right;
 }
 
-.home-about {
-	background-image: url(home-about4.png);
-	padding: 10em 0;
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a:link, a:visited {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.home-desc {
+	padding: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+}
+
+.promo {
+		margin-right:50px;
+		margin-top: -90px;
+	position:relative;
+	float:right;
+	padding: 10px;
+        
+        color: #fff;
+}
+
+.promo-button {
+	   background: rgba(255, 255, 255, 0.4);
+    border-style: solid;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+	margin-right: -220px;
+	margin-top: 5px;
+	position:relative;
+	float:right;             
+}
+
+.contacts01 {
+	margin-right:-350px;
+		margin-top: -390px;
+	position:relative;
+	float:right;
+}
+.contacts02 {
+	margin-right:-345px;
+		margin-top: -320px;
+	position:relative;
+	float:right;
+}
+.contacts03 {
+	margin-right:-350px;
+		margin-top: -270px;
+	position:relative;
+	float:right;
 }
