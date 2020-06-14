@@ -1,0 +1,25 @@
+* {
+	box-sizing:border-box;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+body {
+	margin:0;
+	font-family: 'Berlin Sans FB';
+	text-align:left-side;
+}
+
+logo {
+	position: absolute;
+	margin-top: 3em;
+	margin-left: 5em;
+}
+
+.home-about {
+	background-image: url(home-about4.png);
+	padding: 10em 0;
+}
