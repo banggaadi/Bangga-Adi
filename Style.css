@@ -2,9 +2,37 @@
 	box-sizing:border-box;
 }
 
+html { font-size:100%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 img {
 	max-width: 100%;
-	height:auto;
+	height: 100%;
 }
 
 a:link, a:visited {
@@ -26,8 +54,14 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%
 	margin:0;
 	font-family: 'Bahnschrift' ;	
+}
+
+.pic {
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 header {
@@ -35,6 +69,7 @@ header {
 	margin-right:50px;
 	position:relative;
 	float:right;
+	margin-top: -280px;
 }
 
 nav ul {
@@ -70,7 +105,7 @@ nav a:link, a:visited {
 
 .promo {
 		margin-right:50px;
-		margin-top: -90px;
+		margin-top: -120px;
 	position:relative;
 	float:right;
 	padding: 10px;
@@ -90,27 +125,27 @@ nav a:link, a:visited {
    font-size: 16px;
    cursor: pointer;
    display: inline-block;
-	margin-right: -220px;
-	margin-top: 5px;
+	margin-right: -250px;
+	margin-top: 20px;
 	position:relative;
 	float:right;             
 }
 
 .contacts01 {
-	margin-right:-350px;
-		margin-top: -390px;
+	margin-right:-420px;
+		margin-top: -450px;
 	position:relative;
 	float:right;
 }
 .contacts02 {
-	margin-right:-345px;
-		margin-top: -320px;
+	margin-right:-415px;
+		margin-top: -380px;
 	position:relative;
 	float:right;
 }
 .contacts03 {
-	margin-right:-350px;
-		margin-top: -270px;
+	margin-right:-420px;
+		margin-top: -325px;
 	position:relative;
 	float:right;
 }
